@@ -8,3 +8,6 @@ git reset --hard HEAD
 
 delete a branch
 git branch -D branch-name
+
+safe delete (if unmerged changes - won't allow the delete):
+git branch -d branch-name
