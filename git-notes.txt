@@ -1,3 +1,10 @@
+git init
+git add.
+git commit -am"first commit"
+git remote add origin git@myserver.com:joe/demo_app.git
+git remote add github git@github.com:jersingh/demo_app.git
+
+
 create a branch and switch to it
 git checkout -b branch-name
 
@@ -11,3 +18,5 @@ git branch -D branch-name
 
 safe delete (if unmerged changes - won't allow the delete):
 git branch -d branch-name
+
+git diff | mate
